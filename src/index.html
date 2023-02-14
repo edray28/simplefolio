@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -16,39 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
-
+    <title>Edgar Ray D. Tuyor | Developer</title>
+    <meta
+      name="keywords"
+      content="[edray28], [Edgar Ray Tuyor], javascript, C#, Python, Java"
+    />
+    <meta name="description" content="[Edgar Ray D. Tuyor] | PH Developer" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <link rel="stylesheet" href="styles.scss" />
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
+    <div id="tsparticles"></div>
     <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Edgar Ray Tuyor</span>
           <br />
-          I'm the Unknown Developer.
+          An IT Student.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -57,9 +42,7 @@
         </p>
       </div>
     </section>
-    <!-- /END Hero Section -->
 
-    <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
         <h2 class="section-title load-hidden">About me</h2>
@@ -71,62 +54,67 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/profile.png"
                 alt="Profile Image"
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+              <p class="about-wrapper__info-text fs-2">
+                My name is Edgar Ray Tuyor, I'm currently an IT Student in Pasig,
+                I am currently focused
+                on increasing my skillsets, My current skill set includes <code>[HTML,CSS,JAVASCRIPT,BOOTSTRAP]</code>
               </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+              <div class="d-flex flex-row mb-3 ">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" class="img-fluid" alt="..." width="50" >
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" class="img-fluid" alt="..." width="50" >
+                <img src="https://cdn-icons-png.flaticon.com/512/136/136530.png" class="img-fluid" alt="..." width="50" >
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" class="img-fluid" alt="..." width="50" >
+              </div>
+              <p class="about-wrapper__info-text fs-3">
+                I started programming on my Senior high school on STI, and worked my
+                way through up to get a college degree in Information
+                Technology. <br /><br />I like to spend my time
+                developing newer technologies and improving my skillsets that could benefit my career in the IT industry.
               </p>
+             
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="https://drive.google.com/file/d/1smZ00y-WiV_BIZ-2qUVVLtKcxwqgblne/view?usp=sharing"
+                  style="margin-right: 5px;"
                 >
                   View Resume
                 </a>
               </span>
+              
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Quotes Generator</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This is a Quote Generator Website created in React, It generates quotes from the API, it uses the Quoatable Generator API, Tachyons CSS Toolkit for the layout, ReactTSParticles for the Visual effect and Github pages for deployment
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://edray28.github.io/quote-generator-web/"
                 >
                   See Live
                 </a>
@@ -134,7 +122,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/edray28/quote-generator-web"
                 >
                   Source Code
                 </a>
@@ -153,7 +141,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/quotegen.png"
                     />
                   </div>
                 </a>
@@ -166,21 +154,17 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Bitcoin Cryptocurrency Price</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A Bitcoin Cryptocurrency Price Website made with Boostrap, javascript and coingecko API
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://edray28.github.io/bitcoin-price-website/"
                 >
                   See Live
                 </a>
@@ -188,7 +172,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/edray28/bitcoin-price-website"
                 >
                   Source Code
                 </a>
@@ -207,34 +191,29 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/btcpic.png"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">QR generator</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A QR Generator created in React, uses Material UI, QRserver API (Creator,Reader) and Material Icon. To use the QR creator, Enter a link or text in the textfield then click the create QR button to generate a QR picture. To use the QR reader, click the browse button then select the QR image file then the contents of the QR will be displayed below. 
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://edray28.github.io/qr-creator/"
                 >
                   See Live
                 </a>
@@ -242,7 +221,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/edray28/qr-creator"
                 >
                   Source Code
                 </a>
@@ -261,92 +240,111 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/qrgen.png"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <div class="col-sm-12 project-wrapper__image load-hidden">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--hero"
+              href="https://edray28.github.io/other-projects/"
+              style="font-size: 24px"
+              >See More Projects!</a
+            >
+          </div>
         </div>
       </div>
     </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
+        <div class="contact-wrapper load-hidden ">
+          <p class="contact-wrapper__text"><a rel="noreferrer"
             target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+            href="mailto:edraytuyor@gmail.com">Get in Touch</a></p>
+           <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="card card-outline-primary">
+                <div class="card-header">
+                  <h3 class="mb-0 text-dark">Sent Me a Message</h3>
+                </div>
+                <div class="card-body">
+                  <form class="form" onsubmit="sendMail(); return false;">
+                    <fieldset>
+                      <label class="mb-2 text-dark" for="name" >Your Name</label>
+                      <div class="row mb-1">
+                          <input class="form-control" id="name" name="name" required="" type="text">
+                      </div>
+                      <label class="mb-2 text-dark justify" for="email">Email</label>
+                      <div class="row mb-1">
+                          <input class="form-control" id="email" name="email" required="" type="email">
+                      </div>
+                      <label class="mb-2 text-dark" for="message">Message</label>
+                      <div class="row mb-1">
+                          <textarea class="form-control" id="message" name="message" required="" rows="6"></textarea>
+                      </div>
+                      <button class="btn btn-primary btn-lg float-right" type="submit">Send Message</button>
+                    </fieldset>
+                  </form>
+                </div>
+           </div>
         </div>
+        </div>
+      </form>
+        <div class="container">
+          <div class="social-links">
+            <a rel="noreferrer" href="https://www.facebook.com/edgar.ray.tuyor420/" target="_blank">
+              <i class="fa fa-facebook fa-inverse"></i>
+            </a>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/vexp27" target="_blank">
+              <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
+            <a rel="noreferrer" href="https://github.com/edray28" target="_blank">
+              <i class="fa fa-github fa-inverse"></i>
+            </a>
+          </div>
       </div>
     </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
 
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
+          Copyright &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+          <a rel="noreferrer" href="https://github.com/edray28" target="_blank"
+            >- Edgar Ray Tuyor</a
           >
         </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
-
     <script defer type="module" src="index.js"></script>
+    <script defer src="scripts/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1/tsparticles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-links@1/tsparticles.preset.links.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendMail() {
+          Email.send({
+            SecureToken: "5e949a69-61df-4ee2-935b-a205d1302c66",
+            To: 'edray28@gmail.com',
+            From: 'edraytuyor@gmail.com',
+            Subject: 'New Contact From Inquiry Polio',
+            Body: "Name: " + document.getElementById("name").value
+            + "<br> Email: " +document.getElementById("email").value
+            + "<br> Message: " +document.getElementById("message").value
+          }).then(
+            message => alert("Message Send Successfully!")
+          ).catch(
+            err => alert("Error! Try Again")
+          ) 
+        }
+    </script>
   </body>
 </html>
